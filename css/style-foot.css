@@ -1,0 +1,54 @@
+/*INICIO RODAPE*/
+
+.container-foot {
+  grid-area: rodape;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+.container-foot > * {
+  margin: 5px;
+}
+
+/*INICIO MIDIAS*/
+
+.midias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-social {
+  display: flex;
+}
+.midias ul {
+  margin: 0;
+}
+
+.social {
+  display: inline;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.vertical {
+  vertical-align: middle;
+}
+/*FIM MIDIAS*/
+
+/*INICIO CONTATO*/
+.container-foot .container-contato {
+  display: flex;
+  flex-direction: column;
+
+}
+.contato {
+  display: flex;
+}
+
+/*FIM CONTATO*/
+
+/*FIM RODAPE*/

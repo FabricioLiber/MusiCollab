@@ -1,0 +1,12 @@
+div.container .container-cabecalho {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+@media all and (max-width:700px) {
+  div.container .container-cabecalho {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}

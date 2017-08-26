@@ -1,0 +1,24 @@
+.container .sobre-text{
+  display: flex;
+  justify-content: center;
+    margin: 4em;
+
+}
+
+.container .video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .text p{
+    margin: 0 10em 0em 10em;
+}
+.container .text h1{
+  text-align: center;
+}
+
+.container .text h1:hover{
+  color: #FF4500;
+}
