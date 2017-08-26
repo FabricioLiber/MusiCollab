@@ -79,7 +79,8 @@ div.container .container-corpo .item-fornecedores {
   grid-area: fornecedor;
   text-align: center;
   background-color: #FF7514;
-  border: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 div.container .container-corpo .container-fornecedores {
   display: grid;
