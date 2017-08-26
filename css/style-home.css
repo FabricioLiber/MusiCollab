@@ -58,7 +58,7 @@ div.container .container-corpo .container-categoria .produto {
   transition: all 1s;
 }
 div.container .container-corpo .container-categoria .produto img{
-  width: 25em;
+  width: 20em;
 }
 div.container .container-corpo .container-categoria .produto figcaption{
   font-size: 24px;
