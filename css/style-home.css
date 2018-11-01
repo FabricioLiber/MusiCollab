@@ -15,7 +15,7 @@ div.container .container-corpo {
 
 div.container .container-corpo .item-destaque {
   grid-area: destaque;
-  background-image: url("../img/background.jpeg");
+  background-image: url("../img/bass-guitar.jpg");
   background-repeat: round;
   transition: all 2s 0.5s;
   align-items: center;

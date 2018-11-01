@@ -1,51 +1,22 @@
-body{
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+.container-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-div.container{
-  display: grid;
-  grid-template-areas: "cabecalho"
-                       "corpo"
-                       "rodape";
-}
-
-/*INICIO CABECALHO*/
-
-div.container .item-cabecalho {
-  grid-area: cabecalho;
-  font-family: 'Merriweather', serif;
-  background-color: #F0F8FF;
-}
-div.container .container-cabecalho {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "logo menu";
-  grid-gap: 2px;
-}
-
-/*INICIO LOGO*/
-
-div.container .container-cabecalho .item-logo {
-  grid-area: logo;
-}
-div.container .container-cabecalho .item-logo #logo {
-  text-align: center;
-}
-
-/*FIM LOGO*/
-
-/*INICIO MENU*/
-div.container .container-cabecalho .item-menu {
-  grid-area: menu;
-  margin: auto;
-}
-div.container .container-cabecalho .item-menu .opcao{
+.container-menu > * {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
 }
+
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*INICIO MENU*/
 
 .container-cabecalho .item-menu .opcao a {
   text-decoration: none;
@@ -81,4 +52,8 @@ h1 {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.remove-margin {
+  margin: 0;
 }
